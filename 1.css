@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0;}
+
+.col-sm-5 {
+    margin-top: 46px;
+}
+
+img.img-fluid {
+    border-radius: 50%;
+    border: 11px solid white;
+    box-shadow: 0 0 12px 13px grey;
+} 
