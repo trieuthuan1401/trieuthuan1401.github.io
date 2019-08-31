@@ -1,11 +1,20 @@
 *{margin: 0; padding: 0;}
+::selection{
+    background: #ffa900;
+}
 
 .col-sm-5 {
-    margin-top: 46px;
+    margin-top: 96px;
 }
 
 img.img-fluid {
     border-radius: 50%;
     border: 11px solid white;
     box-shadow: 0 0 12px 13px grey;
+    transition: 0.3s;
+    transform: scale(0.8);
+}
+
+img.img-fluid:hover {
+    transform: scale(1);
 } 
