@@ -1,6 +1,17 @@
 *{margin: 0; padding: 0;}
+
+h1 {
+    font-weight: bold;
+    font-family: segoe ui light;
+}
+
+i {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+}
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 ::selection{
-    background: #ffa900;
+    background: hsl(40, 100%, 50%);
 }
 
 .col-sm-5 {
